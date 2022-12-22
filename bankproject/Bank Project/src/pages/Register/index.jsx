@@ -1,12 +1,14 @@
+import OptionLogin from './../Components/OptionLogin';
+
 function Register(){
     return(
         <>
-        
-        <h1>register</h1>
-        
+        <OptionLogin Titulo={'Register'}></OptionLogin>
         
         </>
     )
 }
 
 export default Register
+
+
