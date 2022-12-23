@@ -9,9 +9,15 @@ export function Apresentation() {
             <div>
                 <img src={apresetationImg} alt="" />
             </div>
-            <h1 className="text-2xl">Finity</h1>
-            <p>Money Transfer Wallet & Finance UI Kit</p>
-            <button className="w-28 h- bg-Orange-Web">Get Started Now</button>
+            <div className="w-60 h-25 text-center flex flex-col justify-around mb-20 mt-5">
+              <h1 className="text-3xl font-bold text-Platinum mb-4">Finity</h1>
+              <p className="font-light text-base text-Platinum ">Money Transfer Wallet & Finance UI Kit</p>
+            </div>
+            <div className="h-24 flex flex-col items-center justify-between">
+              <button className="w-60 h-10 px-px rounded-b-md rounded-r-md rounded-t-md bg-Orange-Web font-bold ">Get Started Now</button>
+              <button className="w-60 h-10 px-px rounded-b-md rounded-r-md rounded-t-md bg-Orange-Web font-bold">Login</button>
+            </div>
+
 
         </div>
     </div>
