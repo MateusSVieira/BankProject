@@ -1,6 +1,6 @@
 function OptionLogin({Titulo}){
     return(
-        <div className="px-10 bg-red-300">
+        <div className="px-10">
         <h1 className="text-5xl font-bold mb-10 text-start">{Titulo}</h1>
         <div className="flex">
 
