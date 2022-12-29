@@ -10,7 +10,8 @@ module.exports = {
         "Orange-Web" : "#FFA400",
         "Yale-Blue" : "#054A91",
         "Steel-Blue" : "#3E7CB1",
-        "Platinum" : "#E0E1DD"
+        "Platinum" : "#E0E1DD",
+        "Black" : "#000100"
       },
     },
   },

@@ -1,0 +1,20 @@
+<svg width="282" height="279" viewBox="0 0 282 279" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<path d="M124.769 131.711C140.593 147.81 157.341 166.554 156.995 186.907C156.764 207.146 139.207 228.88 117.031 238.769C94.854 248.543 67.8262 246.473 48.3061 234.974C28.6706 223.36 16.5427 202.201 8.22649 176.903C-0.205247 151.719 -4.82538 122.396 7.76448 106.987C20.3543 91.6933 50.0387 90.3134 72.3308 96.293C94.5074 102.273 109.061 115.727 124.769 131.711Z" fill="#F9E9E7"/>
+<path d="M271.704 181.225C287.601 216.684 286.595 255.263 258.021 270.723C229.446 286.183 173.304 278.666 139.699 259.092C105.893 239.661 94.6241 208.032 106.698 176.26C118.771 144.489 154.389 112.718 188.597 113.002C222.806 113.286 255.807 145.624 271.704 181.225Z" fill="#FADDDC"/>
+<mask id="mask0_0_1" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="47" y="11" width="203" height="203">
+<rect x="47" y="11" width="203" height="203" fill="url(#pattern0)"/>
+</mask>
+<g mask="url(#mask0_0_1)">
+<rect x="10" width="266" height="244" fill="#FF897E"/>
+</g>
+<circle cx="72" cy="199" r="3" fill="#FF897E"/>
+<circle cx="176" cy="21" r="3" fill="#FF897E"/>
+<circle cx="151" cy="3" r="3" fill="#FF897E"/>
+<circle cx="126" cy="21" r="3" fill="#FF897E"/>
+<defs>
+<pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0_0_1" transform="scale(0.00154083)"/>
+</pattern>
+
+</defs>
+</svg>
