@@ -5,9 +5,7 @@ import {Apresentation} from './pages/Home/Apresentation'
 import {Apresentation2} from './pages/Home/Apresentation2'
 
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom'
-import Register from './pages/Register'
 import { Perfil } from './pages/MainPerfil/Perfil'
-
 import { Register } from './pages/Register'
 
 
