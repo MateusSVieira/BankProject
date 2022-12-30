@@ -12,7 +12,7 @@ export function Register(){
             <OptionLogin Titulo={'login'} />
 
             {/* formulario de name email senha  */}
-            <div className='px-10 flex flex-col mb-16'>
+            <div className='px-10 flex flex-col mb-8'>
 
                 {/* name  */}
                 <input className='bg-slate-200 py-4 rounded font-medium mb-3 text-sm pl-3 text-slate-600 my-4' 
@@ -31,10 +31,12 @@ export function Register(){
                     <input className='w-5 h-5 mr-2' type="checkbox" name="check" id="check" />
                     <p>I've read and agree to the <a className='text-blue-800 cursor-pointer'>terms</a> of privacy <a className='text-blue-800  cursor-pointer'> policy</a></p>
                 </div>
+                <div className='mt-4'>
                 {/* botao de registro  */}
                 <ButtonLR TextButton={'Register'}></ButtonLR>
+                </div>
                 
-                <div className='mt-8'>
+                <div className='mt-6'>
                 {/*component opção de pular etapa e ir para login  */}
                 <RodapeLoginRegister Text='Already have an account?' Link='login'></RodapeLoginRegister>
                 
