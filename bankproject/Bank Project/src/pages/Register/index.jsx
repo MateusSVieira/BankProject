@@ -10,7 +10,7 @@ export function Register(){
     return(
         <div className='md:w-4/6 flex flex-col mx-auto'>
             {/* componente de login com opçoes  */}
-            <OptionLogin Titulo={'login'} />
+            <OptionLogin Titulo={'Register'} />
 
             {/* formulario de name email senha  */}
             <div className='px-10 flex flex-col mb-8'>
