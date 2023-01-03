@@ -10,6 +10,7 @@ import { BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import { Perfil } from './pages/MainPerfil/Perfil'
 import { Register } from './pages/Register'
 import { Login } from './pages/Login'
+import { SideMenu } from './pages/SideMenu/MenuSide'
 
 
 
@@ -25,6 +26,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route path="/Apresentation4" element={<Apresentation4/>} />
         <Route path="/Apresentation5" element={<Apresentation5/>} />
         <Route path="/Perfil" element={<Perfil/>} />
+        <Route path="/SideMenu" element={<SideMenu/>} />
       </Routes>
     </Router>
 
