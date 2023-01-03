@@ -25,8 +25,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route path="/Apresentation4" element={<Apresentation4/>} />
         <Route path="/Apresentation5" element={<Apresentation5/>} />
         <Route path="/Perfil" element={<Perfil/>} />
-
-        
       </Routes>
     </Router>
 
