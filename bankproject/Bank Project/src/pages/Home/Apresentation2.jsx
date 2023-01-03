@@ -1,9 +1,19 @@
 import  ApresentationImg2 from "../../assets/apresentation2.svg"
 import ButtonNext from "../Components/ButtonNext"
+import { Apresentation3 } from "./Apresentation3"
+
+
 
 export function Apresentation2() {
 
+    function nextPage(){
+        // window.location.href="Apresentation3"
+        alert("Peguei")
+     }
+
     return (
+
+       
 
     <div className="md:w-4/6 flex flex-col items-center mx-auto ">
         
@@ -23,7 +33,7 @@ export function Apresentation2() {
            
             <div className="flex mt-10 font-bold">
                 <span className="text-white mt-4">1/3</span>
-               <ButtonNext/>
+               <ButtonNext linkButton={"Apresentation3"} />
             </div>
             
         </div>

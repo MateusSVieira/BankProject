@@ -22,7 +22,7 @@ export function Apresentation5() {
            
             <div className="flex flex-col items-center mx-auto mt-10 font-bold">
                <button className="rounded-full w-14 h-14 bg-white hover:scale-110 ease-in text-blue-600">
-                ->
+                    &rarr;
                </button>
             </div>
             
