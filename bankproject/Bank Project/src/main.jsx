@@ -18,8 +18,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route path="/Apresentation" element={<Apresentation/>} />
         <Route path="/" element={<Apresentation2/>} />
         <Route path="/Perfil" element={<Perfil/>} />
-
-        
       </Routes>
     </Router>
 

@@ -17,11 +17,10 @@ export function Perfil() {
             </div>
             <div className="flex flex-col items-center justify-center bg-Platinum w-96 rounded-xl">
                 <div className="flex flex-col items-center justify-center">
-                    <img src={ProfileBlank} width="60" height="20"  alt="" className="absolute top-16 border-2 rounded-full"/>
-                    <div className="flex flex-col items-center mt-10 w-40">
-                        <h1>Name</h1>
-                        <h3>Account ending with </h3>
-                        <h3>1545</h3>
+                    <img src={ProfileBlank} width="60" height="20"  alt="" className="absolute top-16 border-2 rounded-xl"/>
+                    <div className="flex flex-col items-center mt-10 pb-8">
+                        <h1 className="font-extrabold">Name</h1>
+                        <h3>Account ending with 1545</h3>
                     </div>
                 </div>
             </div>
@@ -33,6 +32,19 @@ export function Perfil() {
                     <a href="#"><Oval4/>Bill</a>
                     <a href="#"><Oval5/>Vouchers</a>
                 </nav>
+            </div>
+            <div className=" flex justify-between w-96 text-center mt-8 font-bold text-white ">
+                <div className="bg-Orange-Web flex items-center justify-center w-44 h-16 rounded-xl">
+                    Salary
+                </div>
+                <div className="bg-Yale-Blue flex items-center justify-center w-44 h-16 rounded-xl">
+                    Transfer
+                </div>
+            </div>
+            <div>
+                <div className="flex items-start w-96 mt-4">
+                    <h1 className="pl-2 font-bold text-xl">Recent transactions</h1>
+                </div>
             </div>
         </div>
     )
