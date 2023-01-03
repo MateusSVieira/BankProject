@@ -1,7 +1,7 @@
-import  ApresentationImg2 from "../../assets/apresentation2.svg"
+import  ApresentationImg3 from "../../assets/apresentation3.svg"
 import ButtonNext from "../Components/ButtonNext"
 
-export function Apresentation2() {
+export function Apresentation3() {
 
     return (
 
@@ -14,15 +14,16 @@ export function Apresentation2() {
            </div>
 
             <div>
-                <img src={ApresentationImg2}/>
+                <img src={ApresentationImg3}/>
             </div>
 
             <div className="w-60 h-25 text-center flex flex-col justify-around mb-20 mt-5">
-              <p className=" text-base text-Platinum font-bold mt-10">Runing your finances is easier with xyz</p>
+                <h1 className="text-white font-bold">See where your money is going</h1>
+              <p className=" text-base text-Platinum mt-10">Stay on top by effortlessly tracking your subscriptions & bills</p>
             </div>
            
             <div className="flex mt-10 font-bold">
-                <span className="text-white mt-4">1/3</span>
+                <span className="text-white mt-4">2/3</span>
                <ButtonNext/>
             </div>
             
