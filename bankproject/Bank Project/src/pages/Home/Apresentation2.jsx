@@ -33,7 +33,7 @@ export function Apresentation2() {
            
             <div className="flex mt-10 font-bold">
                 <span className="text-white mt-4">1/3</span>
-               <ButtonNext linkButton={"Apresentation3"} />
+               <ButtonNext link="Apresentation3" />
             </div>
             
         </div>
