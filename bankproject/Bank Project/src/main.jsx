@@ -33,6 +33,9 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route path="/PaymentSuccess" element={<PaymentSuccess/>} />
         <Route path="/PaymentFail" element={<PaymentFail/>} />
 
+        
+        
+        <Route path="/AccountDetails" element={</>} />
       </Routes>
     </Router>
 
