@@ -13,6 +13,9 @@ import { Register } from './pages/Register'
 import { Login } from './pages/Login'
 import { SideMenu } from './pages/SideMenu/MenuSide'
 import { Bank } from './pages/Bank/Bank'
+import { PaymentSuccess } from './pages/Payment/PaymentSuccess'
+import { PaymentFail } from './pages/Payment/PaymentFail'
+
 
 
 
@@ -33,6 +36,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route path="/Bank" element={<Bank/>} />
       </Routes>
     </Router>
-
   </React.StrictMode>
 )
+

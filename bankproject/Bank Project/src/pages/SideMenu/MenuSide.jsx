@@ -1,4 +1,5 @@
 import ProfileBlank  from "../../assets/blankProfile.svg"
+import { EditProfile } from "../EditProfile/EditProfile"
 
 
 export function SideMenu() {
@@ -14,7 +15,7 @@ export function SideMenu() {
 
             <div className="w-64 h-80 flex">
                 <nav className="flex flex-col divide-y-2 justify-evenly  w-64 divide-White">
-                    <div className=""><a href="#" >Profile</a></div>
+                    <div className=""><a href="EditProfile">Profile</a></div>
                     <div className="pt-5 "><a href="#" className="">My Accounts</a></div>
                     <div className="pt-5 "><a href="#" >History</a></div>
                     <div className="pt-5 "><a href="#">Debit Card</a></div>
@@ -23,7 +24,7 @@ export function SideMenu() {
             </div>
 
             <div className=" w-64 h-32 flex place-items-end">
-                <a href="#" className="pb-5">LOGOUT</a>
+                <a href="#" className="pb-5">LOGOUT </a>
             </div>
         </div>
     )
