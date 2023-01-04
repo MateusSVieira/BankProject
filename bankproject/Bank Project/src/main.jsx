@@ -8,9 +8,11 @@ import { Apresentation4 } from './pages/Home/Apresentation4'
 import { Apresentation5 } from './pages/Home/Apresentation5'
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import { Perfil } from './pages/MainPerfil/Perfil'
+import { EditProfile } from './pages/EditProfile/EditProfile'
 import { Register } from './pages/Register'
 import { Login } from './pages/Login'
 import { SideMenu } from './pages/SideMenu/MenuSide'
+import { Bank } from './pages/Bank/Bank'
 
 
 
@@ -27,6 +29,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route path="/Apresentation5" element={<Apresentation5/>} />
         <Route path="/Perfil" element={<Perfil/>} />
         <Route path="/SideMenu" element={<SideMenu/>} />
+        <Route path="/EditProfile" element={<EditProfile/>} />
+        <Route path="/Bank" element={<Bank/>} />
       </Routes>
     </Router>
 
