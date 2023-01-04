@@ -11,6 +11,9 @@ import { Perfil } from './pages/MainPerfil/Perfil'
 import { EditProfile } from './pages/EditProfile/EditProfile'
 import { Register } from './pages/Register'
 import { Login } from './pages/Login'
+import { PaymentSuccess } from './pages/Payment/PaymentSuccess'
+import { PaymentFail } from './pages/Payment/PaymentFail'
+
 
 
 
@@ -27,6 +30,9 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route path="/Apresentation5" element={<Apresentation5/>} />
         <Route path="/Perfil" element={<Perfil/>} />
         <Route path="/EditProfile" element={<EditProfile/>} />
+        <Route path="/PaymentSuccess" element={<PaymentSuccess/>} />
+        <Route path="/PaymentFail" element={<PaymentFail/>} />
+
       </Routes>
     </Router>
 

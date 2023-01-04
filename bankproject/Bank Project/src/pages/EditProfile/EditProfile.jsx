@@ -1,7 +1,5 @@
 import { ReactComponent as Quad } from "../../assets/perfilQuad.svg"
 import { ReactComponent as Points } from "../../assets/perfilPoints.svg"
-import { ReactComponent as EditIcon } from "../../assets/editprofile.svg"
-
 import ProfileBlank  from "../../assets/blankProfile.svg"
 import ButtonRed from "../Components/ButtonRed"
 
