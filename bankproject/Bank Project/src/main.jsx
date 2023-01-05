@@ -11,8 +11,11 @@ import { Perfil } from './pages/MainPerfil/Perfil'
 import { EditProfile } from './pages/EditProfile/EditProfile'
 import { Register } from './pages/Register'
 import { Login } from './pages/Login'
+import { SideMenu } from './pages/SideMenu/MenuSide'
+import { Bank } from './pages/Bank/Bank'
 import { PaymentSuccess } from './pages/Payment/PaymentSuccess'
 import { PaymentFail } from './pages/Payment/PaymentFail'
+import { AccountDetails } from './pages/AccountDetails/index';
 
 
 
@@ -29,15 +32,14 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route path="/Apresentation4" element={<Apresentation4/>} />
         <Route path="/Apresentation5" element={<Apresentation5/>} />
         <Route path="/Perfil" element={<Perfil/>} />
+        <Route path="/SideMenu" element={<SideMenu/>} />
         <Route path="/EditProfile" element={<EditProfile/>} />
         <Route path="/PaymentSuccess" element={<PaymentSuccess/>} />
         <Route path="/PaymentFail" element={<PaymentFail/>} />
-
-        
-        
-        <Route path="/AccountDetails" element={</>} />
+        <Route path="/AccountDetails" element={<AccountDetails/>} />
+        <Route path="/Bank" element={<Bank/>} />
       </Routes>
     </Router>
-
   </React.StrictMode>
 )
+
